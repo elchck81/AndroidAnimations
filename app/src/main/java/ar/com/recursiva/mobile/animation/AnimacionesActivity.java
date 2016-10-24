@@ -18,7 +18,7 @@ public class AnimacionesActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animaciones);
-        Intent i = new Intent(this,Animaciones2Activity.class);
+        Intent i = new Intent(this,ReadActivity.class);
         startActivity(i);
     }
 
